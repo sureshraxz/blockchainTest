@@ -1,0 +1,27 @@
+0. to use any git use a follow cmds
+	1. create a folder
+	2. navigate inside that folder
+	3. git init --> this initalize or create a local repo inside that folder
+	4. git status
+	5. git add filename.extention -> to add specific file to git (staging area)
+	6. git commit -m "commited to remote repo" ->
+		git commit	->used to commit
+		-m 		->status message to know
+		"... "		->add your message.
+
+1.link git to git hub using git bash
+	1. git config --global user.username suresh
+	2. git remote add origin https://githublink with repo were file need to be added
+--------------😀-----------------------------
+	we have successfully linked our remote repo to local repo
+
+2. to push the file from local to git
+	git push origin master/branch name
+
+3.to pull project from git
+	git clone -b branchName https//github link were the file is located
+	
+	git clone -b starter-code https://github.com/dappuniversity/defi_tutorial defi_tutorial
+
+4.brand new project
+	git checkout -b master
