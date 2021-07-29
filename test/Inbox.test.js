@@ -38,6 +38,17 @@ describe('Inbox contract testcases', () => {
       //indicates successful deployment of contract into the ntw
       assert.ok(inboxDeployedInst.options.address);      
     });
+    it('has default msg', async() =>{
+      const defaultMsg = await inboxDeployedInst.methods.message().call();
+      assert.strictEqual(defaultMsg,'Hi there !');
+    });
+    it('can change the msg',  async() =>{
+      const defaultMsg = await inboxDeployedInst.methods.setMessage('bye').send({from:accounts[0]});
+      //console.log(defaultMsg);  //Generally there is no need to return while interacting with contract - it returns only the 
+                                  // transaction hash, block hash ... and not any msg.
+      const newMsg = await inboxDeployedInst.methods.message().call();
+      assert.strictEqual(newMsg,'bye');
+    });
 });
 
 
