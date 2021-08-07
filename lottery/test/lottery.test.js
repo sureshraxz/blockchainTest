@@ -100,3 +100,19 @@ describe('lottery check', () => {
       at w.processBlock (node_modules\ganache-cli\build\ganache-core.node.cli.js:42:50915)
       at processTicksAndRejections (internal/process/task_queues.js:93:5)
 */
+
+/*
+  lottery check
+    ✔ Is lottery contract deployed successfully
+    ✔ Is player added to lottery (339ms)
+    ✔ has minimum amt for lottery (136ms)
+before joinig lottery..... 99797278150000000000
+after joinig lottery...... 97797150226000000000
+diff 1 2000127923999998000
+post Winning Balance lottery...... 99797103318000000000
+diff 2 1999953091999989800
+    ✔ is money transfered sucessfully to winner and reset of lottery (510ms)
+
+
+  4 passing (2s)
+*/
