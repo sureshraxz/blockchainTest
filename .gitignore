@@ -1,0 +1,7 @@
+#dependencies
+node_modules/
+
+#links
+#https://dev.azure.com/CCMiResearch/_git/VSContract?path=%2F.gitignore&version=GBmaster
+#https://github.com/compodoc/compodoc-demo-todomvc-angular/blob/master/.gitignore
+
