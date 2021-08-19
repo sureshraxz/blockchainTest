@@ -1,0 +1,25 @@
+Goal: create a lottery app 
+----
+
+sections
+--------
+1. This app will show the manager and amount available in the lottery
+2. If user interested - he will ping enter into the contract - enter() 
+3. pick a winner() - this function will send all the data available to random person
+                    - its accessed only by manager
+4. A status msg - to inimate the user about the actions performed.
+
+* manager - The person who deploys the contract into the network 
+
+Tech info
+---------
+1. bc - Rinkeby
+2. sc - solidity
+3. provider - truffle-hdwallet-provider
+4. web 3 - a collection of libraries that allow you to interact with a local or remote ethereum node using HTTP, IPC or WebSocket.
+5. wallet - Meta Mask
+
+React info
+----------
+1. cmd-line tool - create-react-app - to create a new react app.
+2.
