@@ -1,0 +1,5 @@
+1. create react app using plugin --> create-react-app appName
+2. install dependencies
+3. install web3 - npm install --save web3@1.0.0-beta.26
+4. web3 setup --> web3 file --> this is how we will connect our app with ethereum ntw using metamask
+5. 
