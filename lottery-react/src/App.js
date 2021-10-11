@@ -7,7 +7,7 @@ class App extends React.Component {
   render() {
 
     console.log(`web3 version provided by metamask : ${web3.version}`);
-    console.log(`list of acts provided by web3`);
+    console.log(`list of acnts provided by web3`);
     web3.eth.getAccounts().then(console.log);
 
     return (
